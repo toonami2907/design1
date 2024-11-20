@@ -56,7 +56,7 @@ const TestingGraph = () => {
       <CardHeader className="flex w-full h-[60px]  items-center justify-between border-b">
         <section className="flex w-full justify-between  h-full items-center">
           <div>
-            <h1 className="text-xl font-InterBold">Customer</h1>
+            <h1 className="text-xl font-bold">Customer</h1>
             <p className="text-sm text-[#8F95B2]">Customers that buy our products</p>
           </div>
           <div>
@@ -139,14 +139,14 @@ const TestingGraph = () => {
           <div className="h-[85px] w-full flex items-center -ml-4">
           <SmallGraph/>
             <div className="flex flex-col mr-10">
-              <span className="font-InterBold text-sm">+ 18% </span>
+              <span className="font-bold text-sm">+ 18% </span>
               <span className="text-gray-500 text-xs">Daily customers</span>
             </div>
           </div>
           <div className="h-[85px] w-full flex items-center ml-4">
             <DailyCustomersCard/>
             <div className="flex flex-col mr-7 ml-2">
-              <span className="font-InterBold text-sm">+ 14% </span>
+              <span className="font-bold text-sm">+ 14% </span>
               <span className="text-gray-500 text-xs">Weekly new customers</span>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Map = () => {
         <section className="w-full md:w-2/3 bg-white rounded-md">
           <Card className="shadow-none border-none">
             <CardHeader className="flex w-full justify-center border-b">
-              <h1 className="font-InterBold text-lg">Customer Map</h1>
+              <h1 className="font-bold text-lg">Customer Map</h1>
             </CardHeader>
             <CardContent>
               <div className="mt-5 overflow-hidden">
@@ -36,7 +36,7 @@ const Map = () => {
         {/* Customer List Section */}
         <section className="w-full md:w-1/3 bg-white p-4 md:p-5 rounded-md">
           <div>
-            <h1 className="text-[#081735] text-lg font-InterBold">Customers List</h1>
+            <h1 className="text-[#081735] text-lg font-bold">Customers List</h1>
           </div>
           <div className="flex flex-col gap-3 mt-5">
             {customerList.map((data, idx) => (
@@ -49,10 +49,10 @@ const Map = () => {
                   />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h1 className="font-InterBold text-sm md:text-[14px] leading-5 truncate">
+                  <h1 className="font-bold text-sm md:text-[14px] leading-5 truncate">
                     {data.name}
                   </h1>
-                  <p className="font-InterRegular text-sm md:text-[14px] leading-5 truncate text-gray-600">
+                  <p className="font-medium text-sm md:text-[14px] leading-5 truncate text-gray-600">
                     {data.email}
                   </p>
                 </div>

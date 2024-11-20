@@ -55,7 +55,7 @@ const Menu = () => {
     <div className="w-full ">
       <Card className="rounded-md mx-auto border-none shadow-none w-full">
         <CardHeader className="px-0 mb-0 pb-0">
-          <CardTitle className="text-[#081735] font-InterBold text-base sm:text-lg px-2 sm:px-5">
+          <CardTitle className="text-[#081735] font-bold text-base sm:text-lg px-2 sm:px-5">
             Menu
           </CardTitle>
         </CardHeader>
@@ -66,7 +66,7 @@ const Menu = () => {
                 <TabsTrigger
                   key={idx}
                   value={tab.name}
-                  className="relative shadow-none border-none data-[state=active]:shadow-none data-[state=active]:text-[#6C5DD3] font-InterSemiBold text-[13px] sm:text-[15px] leading-[18px] sm:leading-[22px] whitespace-nowrap after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:bg-transparent data-[state=active]:after:bg-[#6C5DD3]"
+                  className="relative shadow-none border-none data-[state=active]:shadow-none data-[state=active]:text-[#6C5DD3] font-semibold text-[13px] sm:text-[15px] leading-[18px] sm:leading-[22px] whitespace-nowrap after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:bg-transparent data-[state=active]:after:bg-[#6C5DD3]"
                 >
                   {tab.name}
                 </TabsTrigger>

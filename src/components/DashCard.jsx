@@ -40,7 +40,7 @@ const DashCard = () => {
     {dashboardData.map((item) => (
       <Card
         key={item.id}
-        className="w-full h-full max-w-[254px] rounded-lg border border-[#0C1A240A] shadow-lg max-h-[182px]  bg-[#FFFFFFBF]"
+        className="w-full h-full md:max-w-[254px] rounded-lg border border-[#0C1A240A] shadow-lg max-h-[182px]  bg-[#FFFFFFBF]"
       >
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">
@@ -59,8 +59,8 @@ const DashCard = () => {
               {item.title}
             </p>
             <div className="flex items-center justify-between">
-              <h2 className="text-3xl font-InterBold text-[#1E293B]">{item.value}</h2>
-              <span className="text-sm font-[600] text-green-600">
+              <h2 className="text-3xl font-bold text-[#1E293B]">{item.value}</h2>
+              <span className="text-sm  text-green-600">
                 {item.change}
               </span>
             </div>

@@ -102,9 +102,9 @@ export default function Sidebar({ hid, toggleNavbar }) {
                     <SidebarGraph/>
                   </div>
                   <div>
-                    <h1 className="text-[#272D37] text-[15px] font-InterSemiBold">Subscription Plan</h1>
+                    <h1 className="text-[#272D37] text-[15px] font-semibold">Subscription Plan</h1>
                     <p className="text-[#5F6D7E] text-sm leading-5">Your Subscription plan will expire soon please upgrade!</p>
-                    <span className="text-[#6C5DD3] font-InterSemiBold text-sm mt-5">Upgrade</span>
+                    <span className="text-[#6C5DD3] font-semibold text-sm mt-5">Upgrade</span>
                   </div>
                 <span className="absolute top-[5px] text-[#5F6D7E] right-1 text-sm"><X size={20}/></span>
                 </div>

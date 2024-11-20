@@ -52,7 +52,7 @@ const App = () => {
             <div className="flex items-center w-full justify-between">
               {/* Left Section */}
               <div className="flex-shrink-0">
-                <h1 className="text-xl md:text-2xl font-InterBold text-gray-900">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-900">
                   Hi, Taylor!
                 </h1>
                 <p className="font-normal text-xs hidden  text-[#718096]  sm:block">
@@ -109,8 +109,8 @@ const App = () => {
         </header>
 
         {/* Scrollable Content Area */}
-        <main className="flex-1 w-full mt-[96px] ml-5 sm:ml-0 overflow-visible">
-          <div className="md:p-10 flex flex-col justify-center items-center max-w-[1215px] mx-auto w-full">
+        <main className="flex-1 w-full mt-[96px] ml-2 sm:ml-0 overflow-visible">
+          <div className="md:p-10 flex flex-col justify-center items-center max-w-[1215px] bg-[#F8F9FF] mx-auto w-full">
             <Outlet />
           </div>
         </main>

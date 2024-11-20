@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Inter", sans-serif;
+}
 
-@font-face {
+/* @font-face {
   font-family: "Inter-R";
   src: url("assets/inter/inter-regular.ttf");
 }
@@ -18,7 +21,7 @@
 @font-face {
   font-family: "Inter-Bl";
   src: url("assets/inter/Inter-ExtraBold.ttf");
-}
+} */
 
 #color3Gradient {
   background: linear-gradient( to right, #A3CB31, #CDF4FF);

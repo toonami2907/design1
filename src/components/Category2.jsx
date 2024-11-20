@@ -40,15 +40,15 @@ const Category2 = () => {
             <div className="absolute inset-x-0 bottom-3 flex justify-center">
               <div className="w-[90%] max-w-[226px] h-[74px] p-4 drop-shadow-[0_4px_6px_rgba(30,41,59,0.06)] bg-white/60 border border-white rounded-[6px] backdrop-blur-xl flex justify-between items-center">
                 <div className="space-y-2">
-                  <h1 className="text-sm line-clamp-1 font-InterSemiBold">
+                  <h1 className="text-sm line-clamp-1 font-semibold">
                     {data.name}
                   </h1>
-                  <p className="text-xs font-InterRegular text-[#64748B]">
+                  <p className="text-xs  text-[#64748B]">
                     {data.description}
                   </p>
                 </div>
                 <div>
-                  <h1 className="text-sm font-InterSemiBold">{data.price}</h1>
+                  <h1 className="text-sm font-semibold">{data.price}</h1>
                 </div>
               </div>
             </div>

@@ -79,7 +79,7 @@ const DashGraph = () => {
           <CardHeader className="flex w-full h-[60px]  items-center justify-between border-b">
             <section className="flex w-full justify-between  h-full items-center">
               <div>
-                <h1 className="text-xl font-InterBold">Revenue</h1>
+                <h1 className="text-xl font-bold">Revenue</h1>
               </div>
               <div>
                 <Ellipsis />
@@ -88,7 +88,7 @@ const DashGraph = () => {
           </CardHeader>
           <CardContent>
             <div className="my-2">
-                <h1 className="text-3xl font-InterBold text-[#081735]">$112,340</h1>
+                <h1 className="text-3xl font-bold text-[#081735]">$112,340</h1>
             </div>
             <ChartContainer className='h-[200px] w-full' config={chartConfig}>
               <BarChart
